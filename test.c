@@ -1,4 +1,7 @@
 #include "max_product.h"
+#include "max_product_fast.c"
+#include "max_product_naive.c"
+
 
 void print_array(int *arr, int size){
   for (int i=0; i<size; i++){
